@@ -3,10 +3,12 @@ import React from "react";
 function Menu(props) {
   return (
     <div className="menu">
-      <h1 className="page-title">QUizzical</h1>
-      <span className="page-description">Description</span>
+      <h1 className="page-title">Random Quizs</h1>
+      <span className="page-description">
+        An API based randomly generated quizzes
+      </span>
       <button className="start-button" onClick={props.start}>
-        Start Quizs
+        Start The Quiz
       </button>
     </div>
   );
